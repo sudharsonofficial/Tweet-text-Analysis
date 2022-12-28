@@ -65,7 +65,9 @@ if st.button("Predict"):
 
 st.markdown("OR")
 upl=st.file_uploader("Upload Your Image:")
-# u=st.image(image=upl) 
+# u=st.image(image=upl)
+ex_im="streamlit 2.png"
+st.image(ex_im,caption="Example image",width=300,use_column_width=10)
 
 if upl is not None:
     # bd=upl.getvalue()
