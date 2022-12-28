@@ -1,6 +1,6 @@
 matplotlib
 nltk
-numpy
+numpy==1.22.3
 opencv_python
 paddleocr
 Pillow
