@@ -4,9 +4,9 @@ import numpy as np
 import time
 from PIL import Image
 import io
-from io import  BytesIO
+
 import re
-import cv2
+
 from paddle2 import pad
 from nltk.corpus import stopwords
 from predictor import Processor,Model
