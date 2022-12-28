@@ -78,7 +78,7 @@ if upl is not None:
     # image_a=Image#keeping it as array itself
     # st.write(image_a)
     # st.image(image=upl)
-    txt1=pi.x_t(down.png)
+    txt1=pi.x_t('down.png')
     st.markdown(":blue[The tweet is:]")
     st.write(txt1)
     pre_txt=p.pre_process([txt1])
