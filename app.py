@@ -4,13 +4,10 @@ import numpy as np
 import time
 from PIL import Image
 import io
-
 import re
-
 from paddle2 import pad
 from nltk.corpus import stopwords
 from predictor import Processor,Model
-
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer 
