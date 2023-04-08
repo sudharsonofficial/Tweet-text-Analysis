@@ -8,4 +8,6 @@ The sentiment analysis is based on a pre-trained model that was trained on a lar
 
 # Requirements
 To install the required packages, run the following command:
+```
 pip install -r requirements.txt
+```
