@@ -1,0 +1,10 @@
+matplotlib
+nltk
+numpy
+opencv_python
+paddleocr
+Pillow
+scikit_learn
+streamlit
+tensorflow
+opencv_python
